@@ -1,0 +1,12 @@
+.calc-wrapper {
+	width: 360px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+@media (max-width: 480px) {
+	.calc-wrapper {
+		width: 320px;
+	}
+}
+

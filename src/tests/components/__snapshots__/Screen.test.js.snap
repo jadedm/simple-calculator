@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should should render error message 1`] = `
+<Fragment>
+  <p
+    className="error"
+  >
+    PLEASE USE VALID EXPRESSIONS
+  </p>
+  <div
+    className="calc-screen"
+  >
+    0
+  </div>
+</Fragment>
+`;
+
+exports[`should should render individual buttons 1`] = `
+<Fragment>
+  <div
+    className="calc-screen"
+  >
+    2+3
+  </div>
+</Fragment>
+`;

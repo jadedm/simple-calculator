@@ -1,0 +1,25 @@
+.button-wrapper .button{
+  flex-basis: 25%;
+  height: 3em;
+  line-height: 1.4em;
+  border: none;
+  outline: 1px solid #888;
+  background: #e0e1e6;
+  color: #888;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-wrapper .operator {
+  background-color: #fe9241;
+  color: #ffffff;
+}
+
+.button.operator:last-child {
+
+    flex-grow: 1;
+
+}
